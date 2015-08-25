@@ -1,0 +1,9 @@
+<Building>
+	<type>house</type>
+	<width>5</width>
+	<height>5</height>
+	<maxHealth>200</maxHealth>
+	<buildCycles>20</buildCycles>
+	<dropOffResources>false</dropOffResources>
+	<canProduce>true</canProduce>
+</Building>

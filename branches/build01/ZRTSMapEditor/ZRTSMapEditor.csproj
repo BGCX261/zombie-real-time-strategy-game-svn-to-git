@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9AA7EBD5-B01D-46F3-98E6-A2D9E09E849F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ZRTSMapEditor</RootNamespace>
+    <AssemblyName>ZRTSMapEditor</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChangeScenarioContextVisitor.cs" />
+    <Compile Include="Commands\MapEditorViewCommands\AddUnitCommand.cs" />
+    <Compile Include="Commands\MapEditorViewCommands\ChangeCellTileCommand.cs" />
+    <Compile Include="Commands\MapEditorViewCommands\AddBuildingCommand.cs" />
+    <Compile Include="MapEditorModel\BitmapManager.cs" />
+    <Compile Include="MapEditorModel\MapEditorModelComponent.cs" />
+    <Compile Include="MapEditorModel\MapEditorModelVisitor.cs" />
+    <Compile Include="MapEditorModel\CommandStack\CommandStack.cs" />
+    <Compile Include="MapEditorModel\NoOpMapEditorModelVisitor.cs" />
+    <Compile Include="MapEditorModel\SelectionState\SelectionState.cs" />
+    <Compile Include="UI\BuildingPalette.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\BuildingPalette.Designer.cs">
+      <DependentUpon>BuildingPalette.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BuildingUI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\MapPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\MapPanel.Designer.cs">
+      <DependentUpon>MapPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Commands\MapEditorCommand.cs" />
+    <Compile Include="MapEditorController.cs" />
+    <Compile Include="MapEditorModel\MapEditorFullModel.cs" />
+    <Compile Include="UI\CreateNewScenarioDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\CreateNewScenarioDialog.Designer.cs">
+      <DependentUpon>CreateNewScenarioDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\MapEditorView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\MapEditorView.Designer.cs">
+      <DependentUpon>MapEditorView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Commands\PlayersFormCommands\PlayerDataGridAdapter.cs" />
+    <Compile Include="Commands\PlayersFormCommands\PlayerDataGridAdapterCommitter.cs" />
+    <Compile Include="UI\MapViewComposite.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\MapViewComposite.Designer.cs">
+      <DependentUpon>MapViewComposite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\PlayersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\PlayersForm.Designer.cs">
+      <DependentUpon>PlayersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\TileUI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\TilePalette.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\TilePalette.Designer.cs">
+      <DependentUpon>TilePalette.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UnitPalette.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\UnitPalette.Designer.cs">
+      <DependentUpon>UnitPalette.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\UnitUI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ZRTSMapEditor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="UI\BuildingPalette.resx">
+      <DependentUpon>BuildingPalette.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BuildingUI.resx">
+      <DependentUpon>BuildingUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MapPanel.resx">
+      <DependentUpon>MapPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\CreateNewScenarioDialog.resx">
+      <DependentUpon>CreateNewScenarioDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MapEditorView.resx">
+      <DependentUpon>MapEditorView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\MapViewComposite.resx">
+      <DependentUpon>MapViewComposite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\PlayersForm.resx">
+      <DependentUpon>PlayersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UI\TilePalette.resx">
+      <DependentUpon>TilePalette.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\TileUI.resx">
+      <DependentUpon>TileUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UnitPalette.resx">
+      <DependentUpon>UnitPalette.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\UnitUI.resx">
+      <DependentUpon>UnitUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ZRTSModel\ZRTSModel.csproj">
+      <Project>{2045DCE8-71C3-43E3-871D-D98407D30E58}</Project>
+      <Name>ZRTSModel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="MapEditorModel\SaveInfo\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

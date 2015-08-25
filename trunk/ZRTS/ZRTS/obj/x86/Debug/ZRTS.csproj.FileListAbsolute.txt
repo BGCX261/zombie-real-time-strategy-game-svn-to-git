@@ -1,0 +1,108 @@
+c:\Diosjenin's Documents\Visual Studio 2010\Projects\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\green_tile.xnb
+c:\Diosjenin's Documents\Visual Studio 2010\Projects\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\soldier_sample.xnb
+c:\Diosjenin's Documents\Visual Studio 2010\Projects\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\green_tile20x20.xnb
+c:\Diosjenin's Documents\Visual Studio 2010\Projects\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\commandos.xnb
+c:\Diosjenin's Documents\Visual Studio 2010\Projects\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\test_spritesheet.xnb
+c:\Diosjenin's Documents\Visual Studio 2010\Projects\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\SpriteFont1.xnb
+c:\Diosjenin's Documents\Visual Studio 2010\Projects\ZRTS\ZRTS\ZRTS\bin\x86\Debug\ZRTS.exe
+c:\Diosjenin's Documents\Visual Studio 2010\Projects\ZRTS\ZRTS\ZRTS\bin\x86\Debug\ZRTS.pdb
+c:\Diosjenin's Documents\Visual Studio 2010\Projects\ZRTS\ZRTS\ZRTS\bin\x86\Debug\nunit.framework.dll
+c:\Diosjenin's Documents\Visual Studio 2010\Projects\ZRTS\ZRTS\ZRTS\bin\x86\Debug\ZRTSLogic.dll
+c:\Diosjenin's Documents\Visual Studio 2010\Projects\ZRTS\ZRTS\ZRTS\bin\x86\Debug\ZRTSModel.dll
+c:\Diosjenin's Documents\Visual Studio 2010\Projects\ZRTS\ZRTS\ZRTS\bin\x86\Debug\ZRTSLogic.pdb
+c:\Diosjenin's Documents\Visual Studio 2010\Projects\ZRTS\ZRTS\ZRTS\bin\x86\Debug\ZRTSModel.pdb
+c:\Diosjenin's Documents\Visual Studio 2010\Projects\ZRTS\ZRTS\ZRTS\bin\x86\Debug\nunit.framework.xml
+c:\Diosjenin's Documents\Visual Studio 2010\Projects\ZRTS\ZRTS\ZRTS\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\Diosjenin's Documents\Visual Studio 2010\Projects\ZRTS\ZRTS\ZRTS\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\Diosjenin's Documents\Visual Studio 2010\Projects\ZRTS\ZRTS\ZRTS\obj\x86\Debug\ZRTS.exe
+c:\Diosjenin's Documents\Visual Studio 2010\Projects\ZRTS\ZRTS\ZRTS\obj\x86\Debug\ZRTS.pdb
+C:\Users\Jason\Desktop\ZRTS\ZRTS\ZRTS\ZRTS\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jason\Desktop\ZRTS\ZRTS\ZRTS\ZRTS\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Jason\Desktop\ZRTS\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\green_tile.xnb
+C:\Users\Jason\Desktop\ZRTS\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\soldier_sample.xnb
+C:\Users\Jason\Desktop\ZRTS\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\green_tile20x20.xnb
+C:\Users\Jason\Desktop\ZRTS\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\commandos.xnb
+C:\Users\Jason\Desktop\ZRTS\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\test_spritesheet.xnb
+C:\Users\Jason\Desktop\ZRTS\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\SpriteFont1.xnb
+C:\Users\Jason\Desktop\ZRTS\ZRTS\ZRTS\ZRTS\bin\x86\Debug\ZRTS.exe
+C:\Users\Jason\Desktop\ZRTS\ZRTS\ZRTS\ZRTS\bin\x86\Debug\ZRTS.pdb
+C:\Users\Jason\Desktop\ZRTS\ZRTS\ZRTS\ZRTS\bin\x86\Debug\nunit.framework.dll
+C:\Users\Jason\Desktop\ZRTS\ZRTS\ZRTS\ZRTS\bin\x86\Debug\ZRTSLogic.dll
+C:\Users\Jason\Desktop\ZRTS\ZRTS\ZRTS\ZRTS\bin\x86\Debug\ZRTSModel.dll
+C:\Users\Jason\Desktop\ZRTS\ZRTS\ZRTS\ZRTS\bin\x86\Debug\ZRTSLogic.pdb
+C:\Users\Jason\Desktop\ZRTS\ZRTS\ZRTS\ZRTS\bin\x86\Debug\ZRTSModel.pdb
+C:\Users\Jason\Desktop\ZRTS\ZRTS\ZRTS\ZRTS\obj\x86\Debug\ZRTS.exe
+C:\Users\Jason\Desktop\ZRTS\ZRTS\ZRTS\ZRTS\obj\x86\Debug\ZRTS.pdb
+C:\Users\Nathan\Documents\Visual Studio 2010\Projects\CS 429 Project\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\green_tile.xnb
+C:\Users\Nathan\Documents\Visual Studio 2010\Projects\CS 429 Project\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\soldier_sample.xnb
+C:\Users\Nathan\Documents\Visual Studio 2010\Projects\CS 429 Project\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\green_tile20x20.xnb
+C:\Users\Nathan\Documents\Visual Studio 2010\Projects\CS 429 Project\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\commandos.xnb
+C:\Users\Nathan\Documents\Visual Studio 2010\Projects\CS 429 Project\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\test_spritesheet.xnb
+C:\Users\Nathan\Documents\Visual Studio 2010\Projects\CS 429 Project\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\SpriteFont1.xnb
+C:\Users\Nathan\Documents\Visual Studio 2010\Projects\CS 429 Project\ZRTS\ZRTS\ZRTS\bin\x86\Debug\ZRTS.exe
+C:\Users\Nathan\Documents\Visual Studio 2010\Projects\CS 429 Project\ZRTS\ZRTS\ZRTS\bin\x86\Debug\ZRTS.pdb
+C:\Users\Nathan\Documents\Visual Studio 2010\Projects\CS 429 Project\ZRTS\ZRTS\ZRTS\bin\x86\Debug\nunit.framework.dll
+C:\Users\Nathan\Documents\Visual Studio 2010\Projects\CS 429 Project\ZRTS\ZRTS\ZRTS\bin\x86\Debug\ZRTSLogic.dll
+C:\Users\Nathan\Documents\Visual Studio 2010\Projects\CS 429 Project\ZRTS\ZRTS\ZRTS\bin\x86\Debug\ZRTSModel.dll
+C:\Users\Nathan\Documents\Visual Studio 2010\Projects\CS 429 Project\ZRTS\ZRTS\ZRTS\bin\x86\Debug\ZRTSLogic.pdb
+C:\Users\Nathan\Documents\Visual Studio 2010\Projects\CS 429 Project\ZRTS\ZRTS\ZRTS\bin\x86\Debug\ZRTSModel.pdb
+C:\Users\Nathan\Documents\Visual Studio 2010\Projects\CS 429 Project\ZRTS\ZRTS\ZRTS\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Nathan\Documents\Visual Studio 2010\Projects\CS 429 Project\ZRTS\ZRTS\ZRTS\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Nathan\Documents\Visual Studio 2010\Projects\CS 429 Project\ZRTS\ZRTS\ZRTS\obj\x86\Debug\ZRTS.exe
+C:\Users\Nathan\Documents\Visual Studio 2010\Projects\CS 429 Project\ZRTS\ZRTS\ZRTS\obj\x86\Debug\ZRTS.pdb
+C:\Users\maestro\Desktop\zombie-real-time-strategy-game\ZRTS\ZRTS\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\maestro\Desktop\zombie-real-time-strategy-game\ZRTS\ZRTS\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\maestro\Desktop\zombie-real-time-strategy-game\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\green_tile.xnb
+C:\Users\maestro\Desktop\zombie-real-time-strategy-game\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\soldier_sample.xnb
+C:\Users\maestro\Desktop\zombie-real-time-strategy-game\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\green_tile20x20.xnb
+C:\Users\maestro\Desktop\zombie-real-time-strategy-game\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\commandos.xnb
+C:\Users\maestro\Desktop\zombie-real-time-strategy-game\ZRTS\ZRTS\bin\x86\Debug\Content\test_spritesheet.xnb
+C:\Users\maestro\Desktop\zombie-real-time-strategy-game\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\util_misc20x20.xnb
+C:\Users\maestro\Desktop\zombie-real-time-strategy-game\ZRTS\ZRTS\bin\x86\Debug\Content\SpriteFont1.xnb
+C:\Users\maestro\Desktop\zombie-real-time-strategy-game\ZRTS\ZRTS\bin\x86\Debug\ZRTS.exe
+C:\Users\maestro\Desktop\zombie-real-time-strategy-game\ZRTS\ZRTS\bin\x86\Debug\ZRTS.pdb
+C:\Users\maestro\Desktop\zombie-real-time-strategy-game\ZRTS\ZRTS\bin\x86\Debug\nunit.framework.dll
+C:\Users\maestro\Desktop\zombie-real-time-strategy-game\ZRTS\ZRTS\bin\x86\Debug\ZRTSLogic.dll
+C:\Users\maestro\Desktop\zombie-real-time-strategy-game\ZRTS\ZRTS\bin\x86\Debug\ZRTSModel.dll
+C:\Users\maestro\Desktop\zombie-real-time-strategy-game\ZRTS\ZRTS\bin\x86\Debug\ZRTSLogic.pdb
+C:\Users\maestro\Desktop\zombie-real-time-strategy-game\ZRTS\ZRTS\bin\x86\Debug\ZRTSModel.pdb
+C:\Users\maestro\Desktop\zombie-real-time-strategy-game\ZRTS\ZRTS\obj\x86\Debug\ZRTS.exe
+C:\Users\maestro\Desktop\zombie-real-time-strategy-game\ZRTS\ZRTS\obj\x86\Debug\ZRTS.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Trunk\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\green_tile.xnb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Trunk\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\soldier_sample.xnb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Trunk\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\green_tile20x20.xnb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Trunk\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\commandos.xnb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Trunk\ZRTS\ZRTS\bin\x86\Debug\Content\test_spritesheet.xnb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Trunk\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\util_misc20x20.xnb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Trunk\ZRTS\ZRTS\bin\x86\Debug\Content\SpriteFont1.xnb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Trunk\ZRTS\ZRTS\bin\x86\Debug\ZRTS.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Trunk\ZRTS\ZRTS\bin\x86\Debug\ZRTS.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Trunk\ZRTS\ZRTS\bin\x86\Debug\nunit.framework.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Trunk\ZRTS\ZRTS\bin\x86\Debug\ZRTSLogic.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Trunk\ZRTS\ZRTS\bin\x86\Debug\ZRTSModel.dll
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Trunk\ZRTS\ZRTS\bin\x86\Debug\ZRTSLogic.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Trunk\ZRTS\ZRTS\bin\x86\Debug\ZRTSModel.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Trunk\ZRTS\ZRTS\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Trunk\ZRTS\ZRTS\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Trunk\ZRTS\ZRTS\obj\x86\Debug\ZRTS.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2010\Projects\Trunk\ZRTS\ZRTS\obj\x86\Debug\ZRTS.pdb
+\\ad.uiuc.edu\engr\ews\carring2\Desktop\ZRTS\ZRTS\ZRTS\obj\x86\Debug\ResolveAssemblyReference.cache
+\\ad.uiuc.edu\engr\ews\carring2\Desktop\ZRTS\ZRTS\ZRTS\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+\\ad.uiuc.edu\engr\ews\carring2\Desktop\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\green_tile.xnb
+\\ad.uiuc.edu\engr\ews\carring2\Desktop\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\soldier_sample.xnb
+\\ad.uiuc.edu\engr\ews\carring2\Desktop\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\green_tile20x20.xnb
+\\ad.uiuc.edu\engr\ews\carring2\Desktop\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\commandos.xnb
+\\ad.uiuc.edu\engr\ews\carring2\Desktop\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\test_spritesheet.xnb
+\\ad.uiuc.edu\engr\ews\carring2\Desktop\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\sprites\util_misc20x20.xnb
+\\ad.uiuc.edu\engr\ews\carring2\Desktop\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\SpriteFont1.xnb
+\\ad.uiuc.edu\engr\ews\carring2\Desktop\ZRTS\ZRTS\ZRTS\bin\x86\Debug\ZRTS.exe
+\\ad.uiuc.edu\engr\ews\carring2\Desktop\ZRTS\ZRTS\ZRTS\bin\x86\Debug\ZRTS.pdb
+\\ad.uiuc.edu\engr\ews\carring2\Desktop\ZRTS\ZRTS\ZRTS\bin\x86\Debug\nunit.framework.dll
+\\ad.uiuc.edu\engr\ews\carring2\Desktop\ZRTS\ZRTS\ZRTS\bin\x86\Debug\ZRTSLogic.dll
+\\ad.uiuc.edu\engr\ews\carring2\Desktop\ZRTS\ZRTS\ZRTS\bin\x86\Debug\ZRTSModel.dll
+\\ad.uiuc.edu\engr\ews\carring2\Desktop\ZRTS\ZRTS\ZRTS\bin\x86\Debug\ZRTSLogic.pdb
+\\ad.uiuc.edu\engr\ews\carring2\Desktop\ZRTS\ZRTS\ZRTS\bin\x86\Debug\ZRTSModel.pdb
+\\ad.uiuc.edu\engr\ews\carring2\Desktop\ZRTS\ZRTS\ZRTS\obj\x86\Debug\ZRTS.exe
+\\ad.uiuc.edu\engr\ews\carring2\Desktop\ZRTS\ZRTS\ZRTS\obj\x86\Debug\ZRTS.pdb
+\\ad.uiuc.edu\engr\ews\carring2\Desktop\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\gamePlayUI\menuUI.xnb
+\\ad.uiuc.edu\engr\ews\carring2\Desktop\ZRTS\ZRTS\ZRTS\bin\x86\Debug\Content\gamePlayUI\icons.xnb

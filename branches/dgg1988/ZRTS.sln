@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZRTS", "ZRTS\ZRTS\ZRTS.csproj", "{EDD58B85-3817-4417-B7E4-FE266BF02AC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZRTSContent", "ZRTS\ZRTSContent\ZRTSContent.contentproj", "{8B76FF50-CB48-475D-B487-A59160D8F9FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZRTSModel", "ZRTSModel\ZRTSModel.csproj", "{2045DCE8-71C3-43E3-871D-D98407D30E58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZRTSLogic", "ZRTSLogic\ZRTSLogic.csproj", "{CCEE566E-2E19-4E84-9FBE-145D95C8AA59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZRTSMapEditor", "ZRTSMapEditor\ZRTSMapEditor.csproj", "{9AA7EBD5-B01D-46F3-98E6-A2D9E09E849F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDD58B85-3817-4417-B7E4-FE266BF02AC9}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{EDD58B85-3817-4417-B7E4-FE266BF02AC9}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{EDD58B85-3817-4417-B7E4-FE266BF02AC9}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{EDD58B85-3817-4417-B7E4-FE266BF02AC9}.Debug|x86.ActiveCfg = Debug|x86
+		{EDD58B85-3817-4417-B7E4-FE266BF02AC9}.Debug|x86.Build.0 = Debug|x86
+		{EDD58B85-3817-4417-B7E4-FE266BF02AC9}.Release|Any CPU.ActiveCfg = Release|x86
+		{EDD58B85-3817-4417-B7E4-FE266BF02AC9}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{EDD58B85-3817-4417-B7E4-FE266BF02AC9}.Release|Mixed Platforms.Build.0 = Release|x86
+		{EDD58B85-3817-4417-B7E4-FE266BF02AC9}.Release|x86.ActiveCfg = Release|x86
+		{EDD58B85-3817-4417-B7E4-FE266BF02AC9}.Release|x86.Build.0 = Release|x86
+		{8B76FF50-CB48-475D-B487-A59160D8F9FC}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{8B76FF50-CB48-475D-B487-A59160D8F9FC}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{8B76FF50-CB48-475D-B487-A59160D8F9FC}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{8B76FF50-CB48-475D-B487-A59160D8F9FC}.Debug|x86.ActiveCfg = Debug|x86
+		{8B76FF50-CB48-475D-B487-A59160D8F9FC}.Release|Any CPU.ActiveCfg = Release|x86
+		{8B76FF50-CB48-475D-B487-A59160D8F9FC}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{8B76FF50-CB48-475D-B487-A59160D8F9FC}.Release|x86.ActiveCfg = Release|x86
+		{2045DCE8-71C3-43E3-871D-D98407D30E58}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{2045DCE8-71C3-43E3-871D-D98407D30E58}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{2045DCE8-71C3-43E3-871D-D98407D30E58}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{2045DCE8-71C3-43E3-871D-D98407D30E58}.Debug|x86.ActiveCfg = Debug|x86
+		{2045DCE8-71C3-43E3-871D-D98407D30E58}.Debug|x86.Build.0 = Debug|x86
+		{2045DCE8-71C3-43E3-871D-D98407D30E58}.Release|Any CPU.ActiveCfg = Release|x86
+		{2045DCE8-71C3-43E3-871D-D98407D30E58}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{2045DCE8-71C3-43E3-871D-D98407D30E58}.Release|Mixed Platforms.Build.0 = Release|x86
+		{2045DCE8-71C3-43E3-871D-D98407D30E58}.Release|x86.ActiveCfg = Release|x86
+		{2045DCE8-71C3-43E3-871D-D98407D30E58}.Release|x86.Build.0 = Release|x86
+		{CCEE566E-2E19-4E84-9FBE-145D95C8AA59}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{CCEE566E-2E19-4E84-9FBE-145D95C8AA59}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{CCEE566E-2E19-4E84-9FBE-145D95C8AA59}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{CCEE566E-2E19-4E84-9FBE-145D95C8AA59}.Debug|x86.ActiveCfg = Debug|x86
+		{CCEE566E-2E19-4E84-9FBE-145D95C8AA59}.Debug|x86.Build.0 = Debug|x86
+		{CCEE566E-2E19-4E84-9FBE-145D95C8AA59}.Release|Any CPU.ActiveCfg = Release|x86
+		{CCEE566E-2E19-4E84-9FBE-145D95C8AA59}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{CCEE566E-2E19-4E84-9FBE-145D95C8AA59}.Release|Mixed Platforms.Build.0 = Release|x86
+		{CCEE566E-2E19-4E84-9FBE-145D95C8AA59}.Release|x86.ActiveCfg = Release|x86
+		{CCEE566E-2E19-4E84-9FBE-145D95C8AA59}.Release|x86.Build.0 = Release|x86
+		{9AA7EBD5-B01D-46F3-98E6-A2D9E09E849F}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{9AA7EBD5-B01D-46F3-98E6-A2D9E09E849F}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{9AA7EBD5-B01D-46F3-98E6-A2D9E09E849F}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{9AA7EBD5-B01D-46F3-98E6-A2D9E09E849F}.Debug|x86.ActiveCfg = Debug|x86
+		{9AA7EBD5-B01D-46F3-98E6-A2D9E09E849F}.Debug|x86.Build.0 = Debug|x86
+		{9AA7EBD5-B01D-46F3-98E6-A2D9E09E849F}.Release|Any CPU.ActiveCfg = Release|x86
+		{9AA7EBD5-B01D-46F3-98E6-A2D9E09E849F}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{9AA7EBD5-B01D-46F3-98E6-A2D9E09E849F}.Release|Mixed Platforms.Build.0 = Release|x86
+		{9AA7EBD5-B01D-46F3-98E6-A2D9E09E849F}.Release|x86.ActiveCfg = Release|x86
+		{9AA7EBD5-B01D-46F3-98E6-A2D9E09E849F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

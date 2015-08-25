@@ -1,0 +1,8 @@
+<Bitmaps>
+	<Bitmap type="soldier" filename="soldier.png" />
+	<Bitmap type="soldier2" filename="soldier2.png" />
+	<Bitmap type="zombie" filename="zombie.png" />
+	<Bitmap type="worker" filename="worker.png" />
+	<Bitmap type="house" filename="home.png" />
+	<Bitmap type="barracks" filename="barracks.png" />
+</Bitmaps>

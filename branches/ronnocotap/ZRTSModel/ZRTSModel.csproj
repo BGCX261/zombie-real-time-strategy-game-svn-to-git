@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{2045DCE8-71C3-43E3-871D-D98407D30E58}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ZRTSModel</RootNamespace>
+    <AssemblyName>ZRTSModel</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaProfile>HiDef</XnaProfile>
+    <XnaCrossPlatformGroupID>3c57cd9c-20e9-4b78-a3ae-70653736f5a7</XnaCrossPlatformGroupID>
+    <XnaOutputType>Library</XnaOutputType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Video, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Avatar, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\ActionCommand.cs" />
+    <Compile Include="Entities\Building.cs" />
+    <Compile Include="GameEvent\Event.cs" />
+    <Compile Include="GameEvent\GameEventObserver.cs" />
+    <Compile Include="GameEvent\GameSubject.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Gameworld.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\GameworldVisitor.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Cell\CellComponent.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Cell\CellVisitor.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Cell\Resource\ExtendedClasses\MapGold\MapGold.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Cell\Resource\ExtendedClasses\MapGold\MapGoldVisitor.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Cell\Resource\ExtendedClasses\MapMetal\MapMetal.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Cell\Resource\ExtendedClasses\MapMetal\MapMetalVisitor.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Cell\Resource\ExtendedClasses\MapWood\MapWoodVisitor.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Cell\Resource\MapResourceVisitor.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Cell\Resource\MapResource.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Cell\Resource\ExtendedClasses\MapWood\MapWood.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Cell\Tile\ExtendedClasses\Grass\Grass.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Cell\Tile\ExtendedClasses\Grass\GrassVisitor.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Cell\Tile\ExtendedClasses\Mountain\Mountain.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Cell\Tile\ExtendedClasses\Mountain\MountainVisitor.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Cell\Tile\ExtendedClasses\Sand\Sand.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Cell\Tile\ExtendedClasses\Sand\SandVisitor.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Cell\Tile\Tile.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Map.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\MapVisitor.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\PlayerList.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\PlayerListVisitor.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\Player\BuildingList\BuildingList.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\Player\BuildingList\BuildingListVisitor.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\Player\PlayerComponent.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\Player\PlayerVisitor.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\Player\UnitList\UnitListVisitor.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\Player\UnitList\Unit\ActionQueue\ActionQueue.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\Player\UnitList\Unit\ActionQueue\ActionQueueVisitor.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\Player\UnitList\Unit\UnitComponent.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\Player\UnitList\UnitList.cs" />
+    <Compile Include="Factories\BuildingFactory.cs" />
+    <Compile Include="Entities\BuildingStats.cs" />
+    <Compile Include="Entities\Entity.cs" />
+    <Compile Include="Entities\ObjectEntity.cs" />
+    <Compile Include="Entities\ResourceEntity.cs" />
+    <Compile Include="Entities\State.cs" />
+    <Compile Include="Entities\StaticEntity.cs" />
+    <Compile Include="Entities\Unit.cs" />
+    <Compile Include="Factories\UnitFactory.cs" />
+    <Compile Include="Entities\UnitStats.cs" />
+    <Compile Include="Exception\FactoryException.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\Player\UnitList\Unit\UnitVisitor.cs" />
+    <Compile Include="GameModel\Scenario\ScenarioComponent.cs" />
+    <Compile Include="GameModel\Scenario\ScenarioVisitor.cs" />
+    <Compile Include="GameWorld\Cell.cs" />
+    <Compile Include="GameWorld\GameWorld.cs" />
+    <Compile Include="GameWorld\Map.cs" />
+    <Compile Include="GameWorld\Tile.cs" />
+    <Compile Include="GameWorld\TileFactory.cs" />
+    <Compile Include="InterfaceTester.cs" />
+    <Compile Include="InterfaceTesterGold.cs" />
+    <Compile Include="ModelComponent.cs" />
+    <Compile Include="ModelComponentLeaf.cs" />
+    <Compile Include="ModelComponentObserver.cs" />
+    <Compile Include="ModelComponentVisitor.cs" />
+    <Compile Include="Player\Player.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SaveLoad.cs" />
+    <Compile Include="Scenario\Observable.cs" />
+    <Compile Include="Scenario\Observer.cs" />
+    <Compile Include="Scenario\Scenario.cs" />
+    <Compile Include="Scenario\ScenarioObservable.cs" />
+    <Compile Include="Scenario\ViewSelectObserver.cs" />
+    <Compile Include="TechTree\ReqList.cs" />
+    <Compile Include="TechTree\TechTree.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="GameModel\Scenario\Gameworld\PlayerList\Player\BuildingList\Building\" />
+    <Folder Include="GameModel\Scenario\Gameworld\PlayerList\Player\Resources\Resource\" />
+    <Folder Include="GameModel\Scenario\Gameworld\PlayerList\Player\UnitList\Unit\ActionQueue\Action\" />
+    <Folder Include="GameModel\ScrollModel\" />
+    <Folder Include="GameModel\SelectionModel\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>

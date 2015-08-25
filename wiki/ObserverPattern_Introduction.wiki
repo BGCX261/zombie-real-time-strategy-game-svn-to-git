@@ -1,0 +1,53 @@
+#summary How observer pattern applied to the view and model?
+#labels Phase-Design,Phase-Requirements
+
+= Introduction =
+Observer pattern.
+
+In this case,
+
+Subject = Scenarios
+
+Observers = ViewSelect
+
+----
+= General Overview of Observer pattern = 
+
+== Observer ==
+This is an interface. Any object that will be an observer needs to have at least one interface, which is "Observer". Each observer object can have multiple observer interfaces. Each interface will have a set of specific methods that need to be implemented. 
+
+For example, ViewSelect object has ViewSelectObserver and Observer interfaces. Therefore, ViewSelect must implement those functions required by ViewSelectObserver and Observer interfaces.
+
+
+
+Main method (Observer)
+
+- update(): This method will get called once being notified by the Observable object when there are new updates.
+
+
+
+== Observable ==
+This is a subject in the observer pattern. Any object that will be observed by the observers must be a sub class of "Observable" object.
+The observable object will keep track of how many observers are observing. 
+
+Main methods:
+
+- Register(): This is where observer is registered.
+
+- Unregister(): This where observer is removed.
+
+- notify(): Notify all observers that have been registered to observe the subject.
+
+----
+
+= Integration =
+Controller either in ZRTSGame or other controller objects will be notifying models of changes. Then the models make changes inside their internal structure. 
+
+Thereafter, notify all observers of all changes. It is possible that some observers will have a direct reference to subjects (observable objects). So that update happens right away after the models have made some changes on themselves.
+
+
+----
+= Scope =
+The observer pattern has been implemented for ViewSelect class.
+ViewSelect will have an observer. Therefore, it will have 2 interfaces:"ViewSelectObserver" and "Observer".
+Scenario will be a subject. Therefore, it will be a subclass of the "observable" object.

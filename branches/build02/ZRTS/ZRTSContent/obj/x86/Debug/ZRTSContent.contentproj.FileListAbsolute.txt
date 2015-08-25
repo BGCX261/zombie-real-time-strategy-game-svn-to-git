@@ -1,0 +1,9 @@
+C:\Users\maestro\Documents\Visual Studio 2010\Projects\ZRTSWorkingCopy\ZRTS\ZRTS\ZRTSContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jason\Desktop\ZRTS\ZRTS\ZRTS\ZRTSContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Nathan\Documents\Visual Studio 2010\Projects\CS 429 Project\ZRTS\ZRTS\ZRTSContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Marc\Desktop\marc.celani\ZRTS\ZRTSContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Joe\Documents\Visual Studio 2010\Projects\marc\ZRTS\ZRTSContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\maestro\Desktop\marc.celani\ZRTS\ZRTSContent\obj\x86\Debug\ResolveAssemblyReference.cache
+\\ad.uiuc.edu\engr\ews\mcelani2\Desktop\mybranch\ZRTS\ZRTSContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Nathan\Desktop\marc.celani\ZRTS\ZRTSContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jason\Desktop\zrts marc\ZRTS\ZRTSContent\obj\x86\Debug\ResolveAssemblyReference.cache

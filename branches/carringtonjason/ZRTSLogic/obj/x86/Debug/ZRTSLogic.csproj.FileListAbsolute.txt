@@ -1,0 +1,16 @@
+C:\Users\Joe\Documents\Visual Studio 2010\Projects\ZRTS\ZRTSLogic\bin\x86\Debug\ZRTSLogic.dll
+C:\Users\Joe\Documents\Visual Studio 2010\Projects\ZRTS\ZRTSLogic\bin\x86\Debug\ZRTSLogic.pdb
+C:\Users\Joe\Documents\Visual Studio 2010\Projects\ZRTS\ZRTSLogic\bin\x86\Debug\ZRTSModel.dll
+C:\Users\Joe\Documents\Visual Studio 2010\Projects\ZRTS\ZRTSLogic\bin\x86\Debug\ZRTSModel.pdb
+C:\Users\Joe\Documents\Visual Studio 2010\Projects\ZRTS\ZRTSLogic\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Joe\Documents\Visual Studio 2010\Projects\ZRTS\ZRTSLogic\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Joe\Documents\Visual Studio 2010\Projects\ZRTS\ZRTSLogic\obj\x86\Debug\ZRTSLogic.dll
+C:\Users\Joe\Documents\Visual Studio 2010\Projects\ZRTS\ZRTSLogic\obj\x86\Debug\ZRTSLogic.pdb
+C:\Users\Marc\Desktop\zrts\ZRTSLogic\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Marc\Desktop\zrts\ZRTSLogic\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Marc\Desktop\zrts\ZRTSLogic\bin\x86\Debug\ZRTSLogic.dll
+C:\Users\Marc\Desktop\zrts\ZRTSLogic\bin\x86\Debug\ZRTSLogic.pdb
+C:\Users\Marc\Desktop\zrts\ZRTSLogic\bin\x86\Debug\ZRTSModel.dll
+C:\Users\Marc\Desktop\zrts\ZRTSLogic\bin\x86\Debug\ZRTSModel.pdb
+C:\Users\Marc\Desktop\zrts\ZRTSLogic\obj\x86\Debug\ZRTSLogic.dll
+C:\Users\Marc\Desktop\zrts\ZRTSLogic\obj\x86\Debug\ZRTSLogic.pdb

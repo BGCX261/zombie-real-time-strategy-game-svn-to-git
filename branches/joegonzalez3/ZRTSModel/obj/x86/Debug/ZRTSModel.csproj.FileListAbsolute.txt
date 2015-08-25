@@ -1,0 +1,30 @@
+C:\Users\maestro\Documents\Visual Studio 2010\Projects\ZRTSWorkingCopy\ZRTS\ZRTSModel\bin\x86\Debug\ZRTSModel.dll
+C:\Users\maestro\Documents\Visual Studio 2010\Projects\ZRTSWorkingCopy\ZRTS\ZRTSModel\bin\x86\Debug\ZRTSModel.pdb
+C:\Users\maestro\Documents\Visual Studio 2010\Projects\ZRTSWorkingCopy\ZRTS\ZRTSModel\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\maestro\Documents\Visual Studio 2010\Projects\ZRTSWorkingCopy\ZRTS\ZRTSModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\maestro\Documents\Visual Studio 2010\Projects\ZRTSWorkingCopy\ZRTS\ZRTSModel\obj\x86\Debug\ZRTSModel.dll
+C:\Users\maestro\Documents\Visual Studio 2010\Projects\ZRTSWorkingCopy\ZRTS\ZRTSModel\obj\x86\Debug\ZRTSModel.pdb
+C:\Users\Jason\Desktop\ZRTS\ZRTS\ZRTSModel\bin\x86\Debug\ZRTSModel.dll
+C:\Users\Jason\Desktop\ZRTS\ZRTS\ZRTSModel\bin\x86\Debug\ZRTSModel.pdb
+C:\Users\Jason\Desktop\ZRTS\ZRTS\ZRTSModel\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jason\Desktop\ZRTS\ZRTS\ZRTSModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Jason\Desktop\ZRTS\ZRTS\ZRTSModel\obj\x86\Debug\ZRTSModel.dll
+C:\Users\Jason\Desktop\ZRTS\ZRTS\ZRTSModel\obj\x86\Debug\ZRTSModel.pdb
+\\ad.uiuc.edu\engr\ews\mcelani2\Desktop\ZRTS2\ZRTS\ZRTSModel\obj\x86\Debug\ResolveAssemblyReference.cache
+\\ad.uiuc.edu\engr\ews\mcelani2\Desktop\ZRTS2\ZRTS\ZRTSModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+\\ad.uiuc.edu\engr\ews\mcelani2\Desktop\ZRTS2\ZRTS\ZRTSModel\obj\x86\Debug\ZRTSModel.dll
+\\ad.uiuc.edu\engr\ews\mcelani2\Desktop\ZRTS2\ZRTS\ZRTSModel\obj\x86\Debug\ZRTSModel.pdb
+\\ad.uiuc.edu\engr\ews\mcelani2\Desktop\ZRTS2\ZRTS\ZRTSModel\bin\x86\Debug\ZRTSModel.dll
+\\ad.uiuc.edu\engr\ews\mcelani2\Desktop\ZRTS2\ZRTS\ZRTSModel\bin\x86\Debug\ZRTSModel.pdb
+C:\Users\Joe\Documents\Visual Studio 2010\Projects\ZRTS\ZRTSModel\bin\x86\Debug\ZRTSModel.dll
+C:\Users\Joe\Documents\Visual Studio 2010\Projects\ZRTS\ZRTSModel\bin\x86\Debug\ZRTSModel.pdb
+C:\Users\Joe\Documents\Visual Studio 2010\Projects\ZRTS\ZRTSModel\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Joe\Documents\Visual Studio 2010\Projects\ZRTS\ZRTSModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Joe\Documents\Visual Studio 2010\Projects\ZRTS\ZRTSModel\obj\x86\Debug\ZRTSModel.dll
+C:\Users\Joe\Documents\Visual Studio 2010\Projects\ZRTS\ZRTSModel\obj\x86\Debug\ZRTSModel.pdb
+C:\Users\Marc\Desktop\zrts\ZRTSModel\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Marc\Desktop\zrts\ZRTSModel\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Marc\Desktop\zrts\ZRTSModel\bin\x86\Debug\ZRTSModel.dll
+C:\Users\Marc\Desktop\zrts\ZRTSModel\bin\x86\Debug\ZRTSModel.pdb
+C:\Users\Marc\Desktop\zrts\ZRTSModel\obj\x86\Debug\ZRTSModel.dll
+C:\Users\Marc\Desktop\zrts\ZRTSModel\obj\x86\Debug\ZRTSModel.pdb

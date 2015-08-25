@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{2045DCE8-71C3-43E3-871D-D98407D30E58}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ZRTSModel</RootNamespace>
+    <AssemblyName>ZRTSModel</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaProfile>HiDef</XnaProfile>
+    <XnaCrossPlatformGroupID>3c57cd9c-20e9-4b78-a3ae-70653736f5a7</XnaCrossPlatformGroupID>
+    <XnaOutputType>Library</XnaOutputType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Video, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Avatar, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\BuildingStats.cs" />
+    <Compile Include="Entities\UnitStats.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EventHandlers\BuildingAddedEventArgs.cs" />
+    <Compile Include="EventHandlers\GameVictoryStateChangeEventArgs.cs" />
+    <Compile Include="EventHandlers\PlayerListChangedEventArgs.cs" />
+    <Compile Include="EventHandlers\ScenarioChangedEventArgs.cs" />
+    <Compile Include="EventHandlers\SelectionStateChangedArgs.cs" />
+    <Compile Include="EventHandlers\TileChangedEventArgs.cs" />
+    <Compile Include="EventHandlers\UnitAddedEventArgs.cs" />
+    <Compile Include="EventHandlers\UnitArgs.cs" />
+    <Compile Include="EventHandlers\UnitAttackedEnemyArgs.cs" />
+    <Compile Include="EventHandlers\UnitAttackStanceChangedArgs.cs" />
+    <Compile Include="EventHandlers\UnitHPChangedEventArgs.cs" />
+    <Compile Include="EventHandlers\UnitListChangedEventArgs.cs" />
+    <Compile Include="EventHandlers\UnitMovedEventArgs.cs" />
+    <Compile Include="EventHandlers\UnitOrientationChangedEventArgs.cs" />
+    <Compile Include="EventHandlers\UnitRemovedEventArgs.cs" />
+    <Compile Include="EventHandlers\UnitStateChangedEventArgs.cs" />
+    <Compile Include="EventHandlers\ZRTSEventHandlers.cs" />
+    <Compile Include="Factories\BuildingFactory.cs" />
+    <Compile Include="Factories\UnitFactory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GameModel\GameModel.cs" />
+    <Compile Include="GameModel\PointF.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\CircleShape.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Entity.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\Player\BuildingList\Building\Building.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\Player\BuildingList\Building\BuildingActionQueue\BuildingActionQueue.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\Player\BuildingList\Building\BuildingActionQueue\BuildingAction\BuildingAction.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\Player\BuildingList\Building\BuildingActionQueue\BuildingAction\ProduceUnit.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\Player\UnitList\Unit\ActionQueue\Action\AttackAction.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\Player\UnitList\Unit\ActionQueue\Action\BuildAction.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\Player\UnitList\Unit\ActionQueue\Action\EntityAction.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\Player\UnitList\Unit\ActionQueue\Action\MoveAction.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\Player\UnitList\Unit\ActionQueue\Action\SimpleAttackUnitAction.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\RectangleShape.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Shape.cs" />
+    <Compile Include="GameModel\Scenario\Trigger\ConditionAllPlayerUnitsDead.cs" />
+    <Compile Include="GameModel\Scenario\Trigger\LoseWhenAllPlayersUnitsAreDead.cs" />
+    <Compile Include="GameModel\Scenario\Trigger\PlayerLoseAction.cs" />
+    <Compile Include="GameModel\Scenario\Trigger\PlayerWinAction.cs" />
+    <Compile Include="GameModel\Scenario\Trigger\WinWhenAllEnemyUnitsDead.cs" />
+    <Compile Include="GameModel\SelectionState\SelectionState.cs" />
+    <Compile Include="ModelComponentFactoryFactory.cs" />
+    <Compile Include="NoOpModelComponentVisitor.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Gameworld.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Cell\CellComponent.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Cell\Resource\ExtendedClasses\MapGold\MapGold.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Cell\Resource\ExtendedClasses\MapMetal\MapMetal.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Cell\Resource\MapResource.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Cell\Resource\ExtendedClasses\MapWood\MapWood.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Cell\Tile\ExtendedClasses\Grass\Grass.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Cell\Tile\ExtendedClasses\Mountain\Mountain.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Cell\Tile\ExtendedClasses\Sand\Sand.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Cell\Tile\Tile.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\Map\Map.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\PlayerList.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\Player\BuildingList\BuildingList.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\Player\PlayerComponent.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\Player\Resources\PlayerResources.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\Player\UnitList\Unit\ActionQueue\ActionQueue.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\Player\UnitList\Unit\UnitComponent.cs" />
+    <Compile Include="GameModel\Scenario\Gameworld\PlayerList\Player\UnitList\UnitList.cs" />
+    <Compile Include="GameModel\Scenario\ScenarioComponent.cs" />
+    <Compile Include="GameModel\Scenario\Trigger\Action.cs" />
+    <Compile Include="GameModel\Scenario\Trigger\Condition.cs" />
+    <Compile Include="GameModel\Scenario\Trigger\EmptyTrigger.cs" />
+    <Compile Include="GameModel\Scenario\Trigger\Trigger.cs" />
+    <Compile Include="GameModel\Scenario\Trigger\TriggerDecorator.cs" />
+    <Compile Include="GameWorld\TileFactory.cs" />
+    <Compile Include="ModelComponent.cs" />
+    <Compile Include="ModelComponentLeaf.cs" />
+    <Compile Include="ModelComponentVisitor.cs" />
+    <Compile Include="Pathfinder\Advanced.cs" />
+    <Compile Include="Pathfinder\Basic.cs" />
+    <Compile Include="Pathfinder\findPath.cs" />
+    <Compile Include="Pathfinder\Node.cs" />
+    <Compile Include="Pathfinder\NodeMap.cs" />
+    <Compile Include="Pathfinder\PQueue.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScenarioXMLReader.cs" />
+    <Compile Include="ScenarioXMLWriter.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>

@@ -1,0 +1,17 @@
+<Unit>
+	<maxHealth>100</maxHealth>
+	<speed>0.1</speed>
+	<attackRange>1.5</attackRange>
+	<attack>20</attack>
+	<attackTicks>10</attackTicks>
+	<visibilityRange>6.0</visibilityRange>
+	<buildSpeed>30</buildSpeed>
+	<waterCost>10</waterCost>
+	<foodCost>10</foodCost>
+	<lumberCost>10</lumberCost>
+	<metalCost>10</metalCost>
+	<canAttack>true</canAttack>
+	<canHarvest>false</canHarvest>
+	<canBuild>false</canBuild>
+	<isZombie>true</isZombie>
+</Unit>

@@ -1,0 +1,9 @@
+<Unit>
+	<maxHealth>200</maxHealth>
+	<speed>0.1</speed>
+	<attackRange>4.0</attackRange>
+	<attack>20</attack>
+	<canAttack>true</canAttack>
+	<canHarvest>false</canHarvest>
+	<canBuild>false</canBuild>
+</Unit>

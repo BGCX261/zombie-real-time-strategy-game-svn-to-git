@@ -1,0 +1,3 @@
+C:\Users\maestro\Documents\Visual Studio 2010\Projects\ZRTSWorkingCopy\ZRTS\ZRTS\ZRTSContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Jason\Desktop\ZRTS\ZRTS\ZRTS\ZRTSContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Nathan\Documents\Visual Studio 2010\Projects\CS 429 Project\ZRTS\ZRTS\ZRTSContent\obj\x86\Debug\ResolveAssemblyReference.cache
